@@ -13,7 +13,7 @@ app.get('/', (req, res)=>{
 })
 
 app.get('/landing', (req, res)=>{
-  res.render("landing")
+  res.render("landing", {data})
 })
 
 
