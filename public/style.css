@@ -1,0 +1,13 @@
+/* Pantone 2021 palette */
+.palette1 {
+  color: #f5e400; /* Luxe Lemon*/
+  color: #888789; /* Chrome */
+  color: #b59a48; /* Glitterati*/
+  color: #6f926e; /* Green Glimmer*/
+  color: #4c96b3; /* Heavenly*/
+  color: #990011; /* Space Cherry*/
+}
+
+body {
+  background-color: #beb7b7; /* Chrome */
+}
