@@ -2,9 +2,11 @@ require('dotenv').config()
 const express = require ("express")
 const app = express()
 app.use(express.static('public'))
-
 app.set("view engine", "ejs")
 
+const data = require('./')
+
+// ROUTING
 app.get('/', (req, res)=>{
   res.redirect('/landing')
 })
