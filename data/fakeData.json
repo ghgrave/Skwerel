@@ -1,0 +1,74 @@
+[
+  {
+    "title": "My Movie",
+    "actors": [
+      {
+        "fname": "Joe",
+        "lname": "Smith",
+        "pic": "path/to/photo"
+      },
+      {
+        "fname": "Jill",
+        "lname": "Jones",
+        "pic": "path/to/photo"
+      }
+    ],
+    "poster": "path/to/poster",
+    "favorite": false,
+    "deleted": false
+  },
+  {
+    "title": "My Movie 2",
+    "actors": [
+      {
+        "fname": "Brad",
+        "lname": "Alexander",
+        "pic": "path/to/photo"
+      },
+      {
+        "fname": "Martha",
+        "lname": "Jo",
+        "pic": "path/to/photo"
+      }
+    ],
+    "poster": "path/to/poster",
+    "favorite": true,
+    "deleted": false
+  },
+  {
+    "title": "My Movie 3",
+    "actors": [
+      {
+        "fname": "Cindy",
+        "lname": "Williams",
+        "pic": "path/to/photo"
+      },
+      {
+        "fname": "Carol",
+        "lname": "Burnett",
+        "pic": "path/to/photo"
+      },
+      {
+        "fname": "Jon",
+        "lname": "Hamm",
+        "pic": "path/to/photo"
+      }
+    ],
+    "poster": "path/to/poster",
+    "favorite": true,
+    "deleted": false
+  },
+  {
+    "title": "My Movie 4",
+    "actors": [
+      {
+        "fname": "Kelly",
+        "lname": "Ripa",
+        "pic": "path/to/photo"
+      }
+    ],
+    "poster": "path/to/poster",
+    "favorite": true,
+    "deleted": true
+  }
+]
