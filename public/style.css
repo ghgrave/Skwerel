@@ -11,7 +11,27 @@ palette {
   font-family: 'Nosifer', cursive;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  height: 100%;
   background-color: #beb7b7; /* Chrome */
   font-family: 'Henny Penny', cursive;
+}
+
+div.scroll-menu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.card {
+  display: inline-block;
+}
+
+.card-text {
+  height: 10em;
+  white-space: initial;
 }

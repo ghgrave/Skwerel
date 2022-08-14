@@ -1,7 +1,47 @@
-<%- include("partials/header")  %> 
+<%- include("partials/header") %>
+<!-- start body container -->
+<div class="container-fluid">
+  <h1 class="mt-5 text-center">Skwerel Landing Page</h1>
 
-    <h1>Skwerel Landing Page</h1>
+  <h2 class="text-center mt-3">Trending Movies</h2>
+  <!-- start movie container -->
+  <div class="scroll-menu">
+    <% movies.forEach(movie => { %>
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title"><%= movie.title %></h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <% }) %>
+    <!-- end movie container -->
+  </div>
 
-    <%= data[1].title %>
+  <h2 class="text-center mt-3">Trending TV Shows</h2>
+  <!-- start tv container -->
+  <div class="scroll-menu">
+    <% movies.forEach(movie => { %>
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title"><%= movie.title %></h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <% }) %>
+    <!-- end tv container -->
+  </div>
 
-<%- include("partials/footer")  %> 
+  <!-- end container -->
+</div>
+
+<%- include("partials/footer") %>

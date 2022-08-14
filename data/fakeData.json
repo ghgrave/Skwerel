@@ -1,6 +1,6 @@
 [
   {
-    "title": "My Movie",
+    "title": "My Movie 1",
     "actors": [
       {
         "fname": "Joe",
@@ -70,5 +70,41 @@
     "poster": "path/to/poster",
     "favorite": true,
     "deleted": true
+  },
+  {
+    "title": "My Movie 5",
+    "actors": [
+      {
+        "fname": "George",
+        "lname": "Jungle",
+        "pic": "path/to/photo"
+      }
+    ],
+    "poster": "path/to/poster",
+    "favorite": true,
+    "deleted": false
+  },
+  {
+    "title": "My Movie 6",
+    "actors": [
+      {
+        "fname": "Shirley",
+        "lname": "McClaine",
+        "pic": "path/to/photo"
+      },
+      {
+        "fname": "Bill",
+        "lname": "Paxton",
+        "pic": "path/to/photo"
+      },
+      {
+        "fname": "Chris",
+        "lname": "Hemsworth",
+        "pic": "path/to/photo"
+      }
+    ],
+    "poster": "path/to/poster",
+    "favorite": true,
+    "deleted": false
   }
 ]

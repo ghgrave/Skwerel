@@ -4,8 +4,7 @@ const app = express()
 app.use(express.static('public'))
 app.set("view engine", "ejs")
 
-const data = require('./data/fakeData.json')
-console.log(typeof(data))
+const movies = require('./data/fakeData.json')
 
 // ROUTING
 app.get('/', (req, res)=>{
@@ -13,7 +12,7 @@ app.get('/', (req, res)=>{
 })
 
 app.get('/landing', (req, res)=>{
-  res.render("landing", {data})
+  res.render("landing", {movies})
 })
 
 
