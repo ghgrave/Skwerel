@@ -1,19 +1,29 @@
 <%- include("partials/header") %>
+
 <!-- start body container -->
 <div class="container-fluid">
   <h1 class="mt-5 text-center">Skwerel Landing Page</h1>
-
   <h2 class="text-center mt-3">Trending Movies</h2>
+
   <!-- start movie container -->
   <div class="scroll-menu">
     <% movies.forEach(movie => { %>
-    <div class="card" style="width: 18rem">
-      <img src="..." class="card-img-top" alt="..." />
+    <div class="card">
+      <% let poster= `/assets/${movie.poster}` %>
+      <img
+        src="https://i.pinimg.com/originals/97/90/4e/97904e472d9f8a2dac4bbcd942ba0eac.jpg"
+        class="card-img-top"
+        alt="<%= movie.title %>"
+      />
       <div class="card-body">
         <h5 class="card-title"><%= movie.title %></h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          De carne lumbering animata corpora quaeritis. Summus brains sit morbo
+          vel maleficia? De apocalypsi gorger omero undead survivor dictum
+          mauris. Hi mindless mortuis soulless creaturas, imo evil stalking
+          monstra adventus resi dentevil vultus comedat cerebella viventium. Qui
+          animated corpse.
         </p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
@@ -26,13 +36,21 @@
   <!-- start tv container -->
   <div class="scroll-menu">
     <% movies.forEach(movie => { %>
-    <div class="card" style="width: 18rem">
-      <img src="..." class="card-img-top" alt="..." />
+    <div class="card">
+      <img
+        src="https://i.pinimg.com/originals/97/90/4e/97904e472d9f8a2dac4bbcd942ba0eac.jpg"
+        class="card-img-top"
+        alt="<%= movie.title %>"
+      />
       <div class="card-body">
         <h5 class="card-title"><%= movie.title %></h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          De carne lumbering animata corpora quaeritis. Summus brains sit morbo
+          vel maleficia? De apocalypsi gorger omero undead survivor dictum
+          mauris. Hi mindless mortuis soulless creaturas, imo evil stalking
+          monstra adventus resi dentevil vultus comedat cerebella viventium. Qui
+          animated corpse.
         </p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>

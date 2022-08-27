@@ -6,9 +6,9 @@ palette {
   color: #6f926e; /* Green Glimmer*/
   color: #4c96b3; /* Heavenly*/
   color: #990011; /* Space Cherry*/
-  font-family: 'Butcherman', cursive;
-  font-family: 'Henny Penny', cursive;
-  font-family: 'Nosifer', cursive;
+  font-family: "Butcherman", cursive;
+  font-family: "Henny Penny", cursive;
+  font-family: "Nosifer", cursive;
 }
 
 * {
@@ -19,7 +19,7 @@ palette {
 body {
   height: 100%;
   background-color: #beb7b7; /* Chrome */
-  font-family: 'Henny Penny', cursive;
+  font-family: "Henny Penny", cursive;
 }
 
 div.scroll-menu {
@@ -29,9 +29,18 @@ div.scroll-menu {
 
 .card {
   display: inline-block;
+  width: 15rem;
+}
+
+.card img {
+  height: 10rem;
+  margin: 0 auto;
+  box-shadow: 2px 2px #990011; /* Space Cherry*/
 }
 
 .card-text {
-  height: 10em;
+  font-size: .75em;
+  height: 5em;
   white-space: initial;
+  overflow: auto;
 }

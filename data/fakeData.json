@@ -5,7 +5,7 @@
       {
         "fname": "Joe",
         "lname": "Smith",
-        "pic": "path/to/photo"
+        "pic": "scaryWerewolf.jpg"
       },
       {
         "fname": "Jill",
@@ -13,7 +13,7 @@
         "pic": "path/to/photo"
       }
     ],
-    "poster": "path/to/poster",
+    "poster": "scaryWerewolf.jpg",
     "favorite": false,
     "deleted": false
   },
